@@ -4,17 +4,6 @@ using namespace std;
 int main(){
     print_hello();
     cout<< endl;
-    int n;
-    while(true){
-        cout<<"Enter a positive number: ";
-        cin>>n;
-        int res = factorial(n);
-        if(res==-1){
-            cout<<"Entered number is negative."<<"\n";
-        }else{
-            cout<<"The factorial of "<<n<<" is "<< res << endl;
-            break;
-        }
-    }
+    cout<<"The factorial of 5 is "<< factorial(5)<< endl;
     return 0;
 }
