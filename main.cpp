@@ -16,5 +16,9 @@ int main(){
             break;
         }
     }
+
+    int x = 56, y = 98;
+    cout << "GCD of " << x << " and " << y << " is "
+         << gcd(x, y);
     return 0;
 }
