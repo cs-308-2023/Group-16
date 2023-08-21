@@ -20,5 +20,7 @@ int main(){
     int x = 56, y = 98;
     cout << "GCD of " << x << " and " << y << " is "
          << gcd(x, y);
+    cout << "GCD (with recursive function) of " << x << " and " << y << " is "
+         << gcdRec(x, y);
     return 0;
 }
